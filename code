@@ -1,0 +1,86 @@
+{
+    "terminal.integrated.fontSize": 14,
+  
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.fontFamily": "Fira Code",
+  
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+  
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    "editor.rulers": [80, 120],
+
+    "material-icon-theme.activeIconPack": "nest",
+    "screencastMode.onlyKeyboardShortcuts": true,
+
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "domain": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "websockets": "pipe",
+      "protos": "pipe",
+      "grpc": "pipe",
+      "providers": "include",
+      "subscribers": "messages",
+      "useCases": "controller",
+      "kafka": "scripts",
+      "mappers": "meta",
+      "_shared": "shared",
+      "eslint-config": "tools",
+      "kube": "kubernetes"
+    },
+
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      "*.proto": "3d",
+      "*.webpack.js": "webpack"
+    },
+
+    "material-icon-theme.languages.associations": {
+      "dotenv": "tune"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Dracula",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "json.maxItemsComputed": 50000,
+    "editor.foldingMaximumRegions": 65000,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+    // "window.menuBarVisibility": "toggle"
+    // "editor.renderWhitespace": "all",
+    // "code-eol.newlineCharacter": "¬",
+    // "code-eol.returnCharacter" : "¤",
+    // "code-eol.crlfCharacter"   : "¤¬",
+    // "files.eol": "\n"
+    // "powermode.enabled": true,
+    // "powermode.presets": "flames"
+  }
